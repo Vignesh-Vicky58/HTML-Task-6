@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Task 6</title>
+    <style>
+        h1 {
+            color: blue;
+        }
+        input, label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registration form</h1>
+    <form action="">
+        <label for="first">First Name: </label>
+        <input type="text" name="first" id="first"><br><br>
+
+        <label for="last">Last Name: </label>
+        <input type="text" name="last" id="last"><br><br>
+
+        <label for="mail">Email: </label>
+        <input type="email" name="mail" id="mail"><br><br>
+
+        <label for="gender">Gender: </label>
+        <input type="radio" name="gender" value="male" id="gender"> <label>Male</label> 
+        <input type="radio" name="gender" value="female" id="gender"> <label>Female</label> <br><br>
+
+        <label for="age">Age: </label>
+        <input type="tel" name="age" id="age"><br><br>
+
+        <label for="phone">Phone Number: </label>
+        <input type="tel" name="phone" id="phone"><br><br>
+        
+        <label>Address: </label>
+        <textarea rows="5" cols="50">
+        </textarea><br><br>
+        
+        <label for="state">State: </label>
+        <input type="text" name="state" id="state"><br><br>
+
+        <label for="country">Country: </label>
+        <select name="country" id="country">
+            <option value="">Choose your country</option>
+            <option value="india">India</option>
+            <option value="australia">Australia</option>
+            <option value="england">England</option>
+            <option value="south-africa">South Africa</option>
+        </select><br><br>
+
+        <label for="language">Languages known: </label>
+        <input type="checkbox" value="english" id="language"> <label>English</label>
+        <input type="checkbox" value="kannada" id="language"> <label>Kannada</label>
+        <input type="checkbox" value="hindi" id="language"> <label>Hindi</label>
+        <input type="checkbox" value="telugu" id="language"> <label>Telugu</label> <br><br>
+    
+        <input type="checkbox" checked name="agree" id="agree">
+        Hereby I declare all the given details are true <br><br>
+
+        <button type="submit">Register</button> 
+
+    </form>
+</body>
+</html>
